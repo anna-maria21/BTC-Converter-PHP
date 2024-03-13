@@ -14,7 +14,7 @@
             @csrf
             <div class="d-flex justify-content-around">
                 <div class="form-group">
-                    <label for="email">BTC</label>
+                    <label for="email">USD</label>
                     <input type="text" name="btc" id="btc" class="form-control" value = "{{ $coins }}">
                 </div>
                 <div class="form-group">
@@ -28,7 +28,7 @@
                     <input type="text" name="uah2" id="uah" class="form-control" value="{{ $uah }}">
                 </div>
                 <div class="form-group">
-                    <label for="email">BTC</label>
+                    <label for="email">USD</label>
                     <input type="text" name="btc2" id="btc" class="form-control" value = "{{ $rate2 }}" readonly>
                 </div>
             </div>
